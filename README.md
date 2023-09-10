@@ -1,23 +1,24 @@
 # Sample Hardhat Project
 
-
+## screenshot of project
+![screenshot](first_Dapp.jpg)
 ## how to run
 
 ### deploy contract
-`install dependency`
-- npm install
-  `complie hardhat project`
-- npx hardhat complie
-  `deploy contract to testnet goerli,get the contract address`
-- npx hardhat run scripts/deploy.js --network goerli
+
+- install dependency `npm install`
+  
+- compile hardhat project `npx hardhat compile`
+  
+- deploy contract to testnet goerli,get the contract address`npx hardhat run scripts/deploy.js --network goerli`
 
 
 ### run react-app
 
-- cd client
-- npm install
-- change the contract address
-- npm run dev
+- `cd client`
+- `npm install`
+- change the contract address in the `client/app.jsx` at line 16 `const contractAddress =`
+- `npm run dev`
 
 ### wallet
 
